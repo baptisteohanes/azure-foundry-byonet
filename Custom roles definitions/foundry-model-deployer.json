@@ -1,0 +1,33 @@
+{
+  "Name": "Foundry Model Deployment Manager",
+  "IsCustom": true,
+  "Description": "Permet de gérer les déploiements de modèles sur un compte Azure AI Foundry, sans donner le contrôle complet de l'account.",
+  "Actions": [
+    "Microsoft.CognitiveServices/accounts/read",
+    "Microsoft.CognitiveServices/accounts/skus/read",
+    "Microsoft.CognitiveServices/accounts/models/read",
+    "Microsoft.CognitiveServices/accounts/usages/read",
+
+    "Microsoft.CognitiveServices/accounts/deployments/read",
+    "Microsoft.CognitiveServices/accounts/deployments/write",
+    "Microsoft.CognitiveServices/accounts/deployments/delete",
+
+    "Microsoft.CognitiveServices/accounts/raiPolicies/read",
+    "Microsoft.CognitiveServices/accounts/raiBlocklists/read",
+    "Microsoft.CognitiveServices/accounts/raiBlocklists/raiBlocklistItems/read",
+    "Microsoft.CognitiveServices/accounts/raiModerationlists/read",
+    "Microsoft.CognitiveServices/accounts/raiModerationlists/raiModerationTerms/read",
+    "Microsoft.CognitiveServices/accounts/raiTopics/read",
+    "Microsoft.CognitiveServices/accounts/raiToolLabels/read",
+    "Microsoft.CognitiveServices/accounts/raiIfcRules/read",
+    "Microsoft.CognitiveServices/accounts/defenderForAISettings/read",
+
+    "Microsoft.Resources/subscriptions/resourceGroups/read"
+  ],
+  "NotActions": [],
+  "DataActions": [],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/845fcad6-2753-4bfa-af64-b5884844cfae"
+  ]
+}
